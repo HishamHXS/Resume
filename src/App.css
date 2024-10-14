@@ -1,38 +1,45 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'Inconsolata', sans-serif;
+  min-height: 100vh;  
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header {
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: 'Roboto Mono', sans-serif;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.App-header p {
+  font-size: 1.3rem;
+  color: #84817a;
+  font-family: 'Inconsolata', sans-serif;
+
+}
+
+.section-projects{
+  display: flex;
+  justify-content: center; /* Centers the grid horizontally */
+  align-items: center;     /* Centers the grid vertically */
+  height: 100vh;           /* Full height of the viewport */
+  width: 100%;             /* Full width of the viewport */
+}
+
+@media (min-width: 768px) {
+  .App {
+    width: 40%; /* Set the width to one third of the screen */
+    margin: auto; /* Center the App class */
   }
 }
+
+/* index.css */
+/* @import url('~@fontsource/inconsolata/index.css');
+* {
+    font-family: 'Inconsolata', monospace;
+ } */
+/* Remove the closing curly brace that is causing the error */

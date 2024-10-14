@@ -1,13 +1,47 @@
+@import '~typeface-inconsolata/index.css';
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  text-align: left;
+  background-color: #151010; /* Same color as .App */
+  font-family: 'Roboto Mono', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Inconsolata',
     monospace;
 }
+
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+html, body {
+  overflow-x: hidden;
+}
+
+a {
+  color: white;
+}
+
+a:hover{
+  color: #808080;
+
+}
+
+* {
+  text-align: left;
+  
+ }
+

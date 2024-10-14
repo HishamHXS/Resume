@@ -1,0 +1,13 @@
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  li:hover h4{
+    color: #808080;
+  }

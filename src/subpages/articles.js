@@ -25,6 +25,13 @@ const Articles = () => {
                         </h4>
                     </div>
                 </li>
+                <li>
+                    <div className='epictetus-discourses'>
+                        <h4 onClick={() => openPopupHandler(3)} style={{ cursor: 'pointer' }}>
+                            Discourses review.
+                        </h4>
+                    </div>
+                </li>
                 <br></br>
             </ul>
 
@@ -79,6 +86,18 @@ const Articles = () => {
                         <p> Reading the quote "A man who chases two rabbits catches neither" made me reflect on the idea of balance in life, especially when pursuing multiple goals. As an ambitious young adult, I often find myself trying to excel in different fields simultaneously, aiming to be the best at everything I do. However, this often leads to none of my efforts working out as I expected. For instance, during my interview preparation, I deprioritized exercising and focused solely on studying, which caused me to lose months of progress at the gym.</p>
 
                         <p> This also brings up the idea of finding fulfillment in the present. From my personal experience, every goal I’ve achieved felt like reaching the peak of a mountain, only to find an even taller one ahead of me. Finding balance seems like an eternal struggle, and I’m eager to explore the philosophy behind it more deeply.</p>
+                    </div>
+                </div>
+            )}
+
+            {openPopup === 3 && (
+                <div className='popup'>
+                    <div className='popup-content'>
+                        <span className='close' onClick={closePopupHandler}>&times;</span>
+                        <h2>Epictetus Discourses.</h2>
+                        <p>The Dichotomy of Control in Epictetus' Discourses teaches that we must distinguish between actions that are within our control and those that are not. As he puts it: "Distinguish between your own and not your own, the things which are in your power and not in your power." At first glance, this might seem like a justification for complacency or victimization, through the belief that one is merely unlucky or that the world is against them. However, my own experience has shown that removing chaotic activities (like multiplayer video games and doom-scrolling) has led to a greater sense of purpose and control over my life.</p>
+
+                        <p>Accepting reality can indeed feel both demotivating and motivating at the same time. For example, when it comes to insecurities, acceptance might initially seem like giving in to them, but it also provides the freedom to stop resisting what you can't change, allowing you to focus your energy on what you can. This duality of acceptance transforms how we approach personal challenges. As I continue reading I will hopefully share more of my thoughts.</p>
                     </div>
                 </div>
             )}

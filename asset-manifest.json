@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9deb826.css",
-    "main.js": "/static/js/main.b943f05c.js",
+    "main.js": "/static/js/main.94c8c798.js",
     "static/js/453.f19e9853.chunk.js": "/static/js/453.f19e9853.chunk.js",
     "static/media/fourth-wing.jpeg": "/static/media/fourth-wing.19b3c3cdd469903b54df.jpeg",
     "static/media/a-six-of-crows.jpeg": "/static/media/a-six-of-crows.d0ac0b6b12aa291dec4d.jpeg",
@@ -34,11 +34,11 @@
     "static/media/coach-carter.jpeg": "/static/media/coach-carter.e268d1074110ef43f45c.jpeg",
     "index.html": "/index.html",
     "main.a9deb826.css.map": "/static/css/main.a9deb826.css.map",
-    "main.b943f05c.js.map": "/static/js/main.b943f05c.js.map",
+    "main.94c8c798.js.map": "/static/js/main.94c8c798.js.map",
     "453.f19e9853.chunk.js.map": "/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9deb826.css",
-    "static/js/main.b943f05c.js"
+    "static/js/main.94c8c798.js"
   ]
 }

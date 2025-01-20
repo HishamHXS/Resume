@@ -6,7 +6,6 @@ import sixCrows from '../assets/a-six-of-crows.jpeg';
 import got1 from '../assets/game-of-thrones.jpg';
 import epictetus from '../assets/epictetus-discourses.jpg';
 import redrising from '../assets/red-rising.jpeg';
-import doriangray from '../assets/picture-of-dorian-gray.jpg';
 
 import aot from '../assets/attack-on-titan.jpeg';
 import jjk from '../assets/jujutsu-kaisen.jpeg';
@@ -21,7 +20,6 @@ function Interests() {
         got1,
         epictetus,
         redrising,
-        doriangray
     ];
 
     const showCovers = [

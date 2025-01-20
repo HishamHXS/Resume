@@ -1,17 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a9deb826.css",
-    "main.js": "/static/js/main.94c8c798.js",
+    "main.js": "/static/js/main.6de21e8a.js",
     "static/js/453.f19e9853.chunk.js": "/static/js/453.f19e9853.chunk.js",
-    "static/media/fourth-wing.jpeg": "/static/media/fourth-wing.19b3c3cdd469903b54df.jpeg",
     "static/media/a-six-of-crows.jpeg": "/static/media/a-six-of-crows.d0ac0b6b12aa291dec4d.jpeg",
     "static/media/slam-dunk.jpeg": "/static/media/slam-dunk.4f7426b70fe52831a273.jpeg",
     "static/media/jujutsu-kaisen.jpeg": "/static/media/jujutsu-kaisen.db6c36fe0952504df830.jpeg",
     "static/media/dune-1.jpg": "/static/media/dune-1.226f40dcade379be4417.jpg",
     "static/media/attack-on-titan.jpeg": "/static/media/attack-on-titan.1e0f574d85140457c7d9.jpeg",
-    "static/media/howls-moving-castle.jpeg": "/static/media/howls-moving-castle.53d915f7e864d603795a.jpeg",
     "static/media/red-rising.jpeg": "/static/media/red-rising.2371c08c9216529c6c9e.jpeg",
-    "static/media/night-circus.jpeg": "/static/media/night-circus.066ac5a02de5ba98f8b4.jpeg",
     "static/media/inconsolata-latin-800.woff": "/static/media/inconsolata-latin-800.c31986329622741ac52b.woff",
     "static/media/inconsolata-latin-600.woff": "/static/media/inconsolata-latin-600.6edcb0b350e171b1b842.woff",
     "static/media/inconsolata-latin-500.woff": "/static/media/inconsolata-latin-500.c20be44f16d71e57b2b8.woff",
@@ -20,7 +17,6 @@
     "static/media/inconsolata-latin-200.woff": "/static/media/inconsolata-latin-200.a2bf4f61ef83603483ad.woff",
     "static/media/inconsolata-latin-900.woff": "/static/media/inconsolata-latin-900.65944213cdc3e1743ec8.woff",
     "static/media/inconsolata-latin-400.woff": "/static/media/inconsolata-latin-400.1b6a5f2020d85f45012c.woff",
-    "static/media/picture-of-dorian-gray.jpg": "/static/media/picture-of-dorian-gray.7f09a343a77ef3f0aa43.jpg",
     "static/media/inconsolata-latin-800.woff2": "/static/media/inconsolata-latin-800.53ec24536533a6d98033.woff2",
     "static/media/inconsolata-latin-500.woff2": "/static/media/inconsolata-latin-500.0f9a2c7c2be26c5ba113.woff2",
     "static/media/inconsolata-latin-300.woff2": "/static/media/inconsolata-latin-300.b03fe7651a40463f3cdb.woff2",
@@ -34,11 +30,11 @@
     "static/media/coach-carter.jpeg": "/static/media/coach-carter.e268d1074110ef43f45c.jpeg",
     "index.html": "/index.html",
     "main.a9deb826.css.map": "/static/css/main.a9deb826.css.map",
-    "main.94c8c798.js.map": "/static/js/main.94c8c798.js.map",
+    "main.6de21e8a.js.map": "/static/js/main.6de21e8a.js.map",
     "453.f19e9853.chunk.js.map": "/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9deb826.css",
-    "static/js/main.94c8c798.js"
+    "static/js/main.6de21e8a.js"
   ]
 }

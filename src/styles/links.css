@@ -1,44 +1,43 @@
 .fixed {
-    position: fixed;
-    }
-    
-    .linkbar {
-    top: 50%;
-    width: 8rem;
-    display: flex;
-    left: 0;
-    }
-    
-    .linkbar-icon {
-    padding: 1rem;
-    color: inherit;
-    text-decoration: none;
-    transition: transform 0.2s ease-in-out;
-    }
-    
-    .linkbar-icon:hover,
-    .linkbar-icon.group:hover {
-    transform: scale(1.1);
-    }
-    
-    .linkbar-tooltip {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s ease-in-out;
-    top: 50%;
-    left: 100%;
-    transform: translateY(-50%);
-    padding: 0.5rem 1rem;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border-radius: 4px;
-    margin-left: 0.5rem;
-    white-space: nowrap;
-    }
-    
-    .group:hover .linkbar-tooltip {
-    opacity: 1;
-    pointer-events: auto;
-    }
-    
+  position: fixed;
+}
+
+.linkbar {
+  top: 50%;
+  width: 8rem;
+  display: flex;
+  left: 0;
+}
+
+.linkbar-icon {
+  padding: 1rem;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.linkbar-icon:hover,
+.linkbar-icon.group:hover {
+  transform: scale(1.1);
+}
+
+.linkbar-tooltip {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+  white-space: nowrap;
+}
+
+.group:hover .linkbar-tooltip {
+  opacity: 1;
+  pointer-events: auto;
+}

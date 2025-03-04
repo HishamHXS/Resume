@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  font-family: 'Inconsolata', sans-serif;
-  min-height: 100vh;  
+  font-family: "Inconsolata", sans-serif;
+  min-height: 100vh;
   color: white;
 }
 
@@ -11,23 +11,22 @@
   align-items: flex-start; /* Align items to the start (left) */
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   color: white;
 }
 
 .App-header p {
   font-size: 1.3rem;
   color: #84817a;
-  font-family: 'Inconsolata', sans-serif;
-
+  font-family: "Inconsolata", sans-serif;
 }
 
-.section-projects{
+.section-projects {
   display: flex;
   justify-content: center; /* Centers the grid horizontally */
-  align-items: center;     /* Centers the grid vertically */
-  height: 100vh;           /* Full height of the viewport */
-  width: 100%;             /* Full width of the viewport */
+  align-items: center; /* Centers the grid vertically */
+  height: 100vh; /* Full height of the viewport */
+  width: 100%; /* Full width of the viewport */
 }
 
 @media (min-width: 768px) {

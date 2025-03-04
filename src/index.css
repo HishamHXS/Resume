@@ -1,20 +1,17 @@
-@import '~typeface-inconsolata/index.css';
+@import "~typeface-inconsolata/index.css";
 
 body {
   margin: 0;
   text-align: left;
   background-color: #151010; /* Same color as .App */
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 code {
-  font-family: 'Inconsolata',
-    monospace;
+  font-family: "Inconsolata", monospace;
 }
-
 
 .about h2 {
   font-size: 24px;
@@ -26,8 +23,8 @@ code {
   line-height: 1.6;
 }
 
-
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -35,13 +32,10 @@ a {
   color: white;
 }
 
-a:hover{
+a:hover {
   color: #808080;
-
 }
 
 * {
   text-align: left;
-  
- }
-
+}

@@ -1,11 +1,11 @@
-import React from 'react';
-import About from './subpages/about';
-import Links from './subpages/links';
-import Articles from './subpages/articles';
-import Projects from './subpages/projects';
-import Interests from './subpages/interests';
+import React from "react";
+import About from "./subpages/about";
+import Links from "./subpages/links";
+import Articles from "./subpages/articles";
+import Projects from "./subpages/projects";
+import Interests from "./subpages/interests";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (

@@ -1,84 +1,13 @@
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-    width: 50%;    
-    box-sizing: border-box;
-    margin-left: auto;      
-    margin-right: auto;      
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-/* For medium screens */
-@media (min-width: 600px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-        width: 80%;
-    }
+.about p {
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-/* For large screens */
-@media (min-width: 900px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-    }
+li:hover h4 {
+  color: #808080;
 }
-
-.grid-item {
-    background-color: transparent;
-    padding: 10px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    transition: 0.5s;
-}
-
-.grid-item::before {
-    content: "";
-    display: block;
-    padding-top: 100%;
-}
-
-.grid-item:hover {
-    transform: scale(1.2);
-    z-index: 1;
-
-}
-
-@media (min-width: 600px) {
-    .grid-item {
-        padding: 20px;
-    }
-}
-
-@media (min-width: 900px) {
-    .grid-item {
-        padding: 30px; 
-    }
-}
-
-/* .grid-item.item1 {
-    background-image: url('../assets/cake.png');
-    background-position: 0% 30%; 
-    background-size: 100%; 
-    background-repeat: no-repeat;
-    background-color: #48351b;
-    border: none;
-} */
-
-/* .grid-item.item2 {
-    background-image: url('../assets/katko.png');
-    background-position: 0% 30%; 
-    background-color:#e3c462;
-    background-size: 100%;
-    background-repeat: no-repeat; 
-    border: none;
-} */

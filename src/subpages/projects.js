@@ -54,6 +54,19 @@ function Projects() {
               X-Factor-style pitch.
             </p>
             <h3> Implementation </h3>
+
+            <p>
+              {" "}
+              This project is still being developed. You can find more about the
+              project here:
+              <a
+                href="https://github.com/HishamHXS/Aki"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/HishamHXS/Aki
+              </a>
+            </p>
           </div>
         </div>
       )}
